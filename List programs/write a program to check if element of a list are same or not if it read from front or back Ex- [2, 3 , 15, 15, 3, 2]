@@ -1,0 +1,15 @@
+
+l=list(map(int,input().split()))
+n=len(l)
+i=0
+j=n-1
+flag=True
+while(i<j):
+    if(l[i]!=l[j]):
+        print("NO")
+        flag=False
+        break
+    i=i+1
+    j=j-1
+if(flag==True):
+    print("YES")
