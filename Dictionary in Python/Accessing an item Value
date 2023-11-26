@@ -1,0 +1,6 @@
+dct={1:'one',2:'two',3:'three'}
+out=dct[3] #if key value is more than the input value then it will give key error
+print(out)
+#Methods in Python Dictionary
+
+1- clear()- to remove all the items in a dictionary
