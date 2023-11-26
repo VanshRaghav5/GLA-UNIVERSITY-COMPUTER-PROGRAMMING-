@@ -1,0 +1,21 @@
+t=()
+t= tuple()  #constructor
+print(t, type(t)) #() <class 'tupel'>
+
+# initialize a tuple with single value
+t= (10,)   # comma is very essential for a value to be a tuple
+t=10,
+print( t, type(t))
+
+#Comma seperated values in a single expression always form a tuple
+ts=3,5,7,(4,5,7)  #here 3,5,7 is an integer expression and (4,5,7) is another single expression
+print(ts,type(ts))
+a,b,*c= 'hello'   #ValueError: too many values to unpack (expected 3) will come as there are more values than the variable. If we put * before any variable it will become optional positional argument and store remaining items in  the form of list
+print(f'{a=}')           # here {a=} works as a variable representative
+print(f'{b=}')
+print(f'{c=}')
+
+a,*b,c= 'he'      #here a will store h and c will store e, 'b' will be and empty list as it is going to store only the remaining element
+print(f'{a=}')
+print(f'{b=}')
+print(f'{c=}')
