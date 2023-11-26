@@ -1,0 +1,10 @@
+ls= [2,6]
+ls2=ls
+print('ls', ls, id(ls))
+print('ls2', ls2, id(ls2))   # here both ls and ls2 are same
+
+ls= [2,6]
+ls2=ls.copy()    #here .copy will copy elements from ls and store it in ls2 both the id will be different
+ls2.clear()   # .clear will clear all the elements
+print('ls', ls, id(ls))
+print('ls2', ls2, id(ls2))
