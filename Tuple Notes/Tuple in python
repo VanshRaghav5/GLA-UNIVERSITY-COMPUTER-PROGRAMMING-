@@ -1,0 +1,11 @@
+Pyhton provides antoher typpe that is a ordered collection of objects,called tuple.
+Tuples are identical to lists in all respects,except for the following properties:
+    1- Tuples are defined by enclosing the elements in parantheses (()) instead of sqare
+    print(brackets([]))
+    2- Tuples are immutable.    
+Immutable - Unchangeable
+
+A tuple is a sequence of immutable python objects . Tuples are sequence, Just like lists. 
+The Differences between tuples and lists are,the tuples cannot be changed unlike lists. Tuples us paranthesis().
+
+A tuple can have any number of items and they may be of different types
