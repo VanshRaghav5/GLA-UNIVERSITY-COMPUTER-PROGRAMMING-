@@ -1,0 +1,30 @@
+SYNTAX for list compression
+[expression for i in se]
+
+
+st=[12,4,6,56]
+out=[i-2 for i in st]
+ou=["hi" for i in st] q
+o=(float(i) for i in st)
+print(o)
+print(out)
+print(ou)
+
+st=[12,4,6,56]
+out=(float(i) for i in st)
+data= next(out)
+print(data)
+
+ost=[12,4,6,56]
+out=(float(i) for i in ost)
+for i in out:
+    print(i)
+    data = list(out)
+    print(data)
+    ata= next(out)
+    print(ata)
+
+ost=[12,4,6,56]
+out=(print(i) for i in ost)
+data=list(out)
+print(data)
