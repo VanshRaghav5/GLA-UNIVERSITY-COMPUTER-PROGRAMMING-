@@ -1,1 +1,5 @@
-
+lst=[23,45,6,7]
+new_lst=[]
+for i in lst:
+    new_lst.append(float(i))
+    print(new_lst)
