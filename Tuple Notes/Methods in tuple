@@ -1,0 +1,9 @@
+Only two methods in tuple
+1- index
+2- count
+both methods return integer value
+
+a=(1,22,43,546,32,2,1)
+b=a.index(1)
+c=a.count(1)
+print(a,type(a),b,c)
