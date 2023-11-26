@@ -1,0 +1,9 @@
+A list is a data structure that is a mutable r changeable ordered sequence of elements. Each element or value that is inside of a list is called an item.Just as strings are defined as characters
+between quotes lists are defined by having values between square brackets[].
+Example of List- look at a simple list that stores several names of dog breeds: dog_breeds= ['corgi','labrador','poodle','jack russel']
+print(dog_breeds)
+in the first line we use square brackets to create a list that contains four elements and then assign it to the dog_breeds variable
+in the second line the list is printed through the variable's name.All the elements are printed in the same order as they were stored in the list because lists are ordered.
+Here is another list that contains five integer:
+numbers=[1,2,3,4,5,6,7]
+print(numbers)
