@@ -1,0 +1,3 @@
+dct={}
+dct=dict() #class constructor
+print(dct, type(dct))
