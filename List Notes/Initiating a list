@@ -1,0 +1,4 @@
+ls=[3,"hello",34524233253523,-33424+3j]  # list format
+ls1=list() # list function
+
+print(ls, type(ls))
