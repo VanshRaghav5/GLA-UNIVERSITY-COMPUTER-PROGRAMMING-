@@ -1,0 +1,11 @@
+import math
+l=list(map(int,input().split()))
+maxi=-math.inf
+mini=math.inf
+for i in l:
+    if i>maxi:
+        maxi=i
+    if i<mini:
+        mini=i
+print(maxi)
+print(mini)
