@@ -1,0 +1,5 @@
+1- A dictionary is mutable  and unordered collection of items each item is the pair of keys and values
+2- Dictionaries consist of pairs(called items) of keys and their corresponding values.
+3- Think of the key as a index in ordered collections.
+4- Python dictionaries are also known as associative arrays or hash tables.
+5- dict={'Car':['Nano',Alto'],'Color':'White','Speed':100}
