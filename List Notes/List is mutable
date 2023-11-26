@@ -1,0 +1,24 @@
+There are two ways in which list is mutable:
+1st- item assignment
+2nd- item deletion 
+if we are able to do these operations with an element then the element is mutable otherwise not.
+
+1st - Item Assignment
+t="hello"
+st[0]="H"
+print(st)
+st = [3, 5, 6]
+print('before operation', id(st))
+st[0] = 'H'
+print('after operation', id(st))"""  #id will be the same because the list is immutable
+print(st)
+
+2nd - Item Deletion
+a=10
+print(a)
+del a  # 'del'   deletes item
+print(a**2)
+st=[3,5,6]
+print(st, "before operation", id(st))
+del st[0] # it will delete the first item of st which is 3
+print(st, "after operation", id(st)
