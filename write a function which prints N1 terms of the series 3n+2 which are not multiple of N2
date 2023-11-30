@@ -1,0 +1,13 @@
+def series_terms(N1, N2):
+    count = 0
+    n = 1
+
+    while count < N1:
+        term = 3 * n + 2
+        if term % N2 != 0:
+            print(term)
+            count += 1
+
+        n += 1
+N1 = int(input())
+N2 = int(input())
