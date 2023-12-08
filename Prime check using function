@@ -1,0 +1,13 @@
+def check_prime(t):
+    for i in range(2,t):
+        if(t%i==0):
+            return False
+    return True
+x=int(input())
+y=int(input())
+a=0
+for t in range(x,y+1):
+    if (check_prime(t)):
+        print(t)
+    a+=t
+print(a)
