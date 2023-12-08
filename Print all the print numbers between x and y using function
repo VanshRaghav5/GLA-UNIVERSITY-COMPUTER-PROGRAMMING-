@@ -1,0 +1,12 @@
+def prime(a,b):
+    for i in  range(a,b+1):
+        count=0
+    for j in range(i,b+1):
+        if(i%j==0):
+            count=count+1
+        return count==2
+#main code
+x=int(input())
+y=int(input())
+out= prime(x,y)
+print(out)
