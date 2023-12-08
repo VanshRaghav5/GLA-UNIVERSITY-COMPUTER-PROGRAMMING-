@@ -1,0 +1,7 @@
+def even_fibonacci_sum(limit):
+    fib_numbers = [0, 1]
+    while fib_numbers[-1] <= limit:
+        fib_numbers.append(fib_numbers[-1] + fib_numbers[-2])
+    return sum(num for num in fib_numbers if num % 2 == 0)
+
+print(even_fibonacci_sum(10000))
