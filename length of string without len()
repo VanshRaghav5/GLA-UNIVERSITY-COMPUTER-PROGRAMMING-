@@ -1,0 +1,4 @@
+my_string = "Hello, World!"
+length = sum(1 for _ in my_string)
+print("Length of string:", length)
+
