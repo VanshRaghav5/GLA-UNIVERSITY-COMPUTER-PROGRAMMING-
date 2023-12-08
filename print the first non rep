@@ -1,0 +1,31 @@
+a=input()
+d={}
+flag=True
+for i in a:
+    if i in d:
+        d[i]=d[i]+1
+    else:
+        d[i]=1
+for i in a:
+    if d[i]==1:
+        flag=False
+        break
+if(flag==True):
+    print("None")
+else:
+    print(i)"""
+"""def series_terms(N1, N2):
+    count = 0
+    n = 1
+
+    while count < N1:
+        term = 3 * n + 2
+        if term % N2 != 0:
+            print(term)
+            count += 1
+
+        n += 1
+N1 = int(input())
+N2 = int(input())
+
+series_terms(N1, N2)
