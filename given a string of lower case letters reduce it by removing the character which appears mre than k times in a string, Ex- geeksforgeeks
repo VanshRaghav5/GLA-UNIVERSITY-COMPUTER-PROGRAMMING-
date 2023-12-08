@@ -1,0 +1,15 @@
+str=input("Enter a lower case string:")
+k=int(input("Enter a number:"))
+dct={}
+a=("")
+for i in str:
+    if i in dct:
+        dct[i]=dct[i]+1
+    else:
+        dct[i]=1
+
+for i in str:
+    if dct[i]<k:
+        a=a+i
+print(a)
+print(dct)
