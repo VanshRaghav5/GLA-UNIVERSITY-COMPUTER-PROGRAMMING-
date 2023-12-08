@@ -1,0 +1,15 @@
+def mergeKLists(lists):
+    heap = [(lst.val, lst) for lst in lists if lst]
+    heapq.heapify(heap)
+    
+    dummy = curr = ListNode(0)
+    
+    while heap:
+        val, lst = heapq.heappop(heap)
+        curr.next = lst
+        curr = curr.next
+        
+        if lst.next:
+            heapq.heappush(heap, (lst.next.val, lst.next))
+    
+    return dummy.next
