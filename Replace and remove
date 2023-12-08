@@ -1,0 +1,8 @@
+def replace_and_remove(s, target, replacement):
+    words = s.split()
+    for i in range(len(words)):
+        if words[i] == target:
+            words[i] = replacement
+        else:
+            words[i] = words[i].replace(target, replacement)
+    return ' '.join(words)
