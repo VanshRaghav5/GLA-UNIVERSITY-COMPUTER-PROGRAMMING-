@@ -1,0 +1,4 @@
+base = 2
+exponent = 5
+result = base ** exponent
+print("Result:", result)
