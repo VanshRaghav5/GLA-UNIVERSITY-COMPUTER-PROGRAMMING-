@@ -1,0 +1,9 @@
+lst=list(map(int,input().split()))
+dct={}
+for i in lst:
+    if i in dct:
+        dct[i]=dct[i]+1
+    else:
+        dct[i]=1
+
+print(dct)
