@@ -1,0 +1,3 @@
+words = ['Hello', 'World', 'Python']
+single_string = ' '.join(words)
+print("Single string:", single_string)
