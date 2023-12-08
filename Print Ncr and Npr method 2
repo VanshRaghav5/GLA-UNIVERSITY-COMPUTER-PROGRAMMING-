@@ -1,0 +1,11 @@
+n=int(input())
+r=int(input())
+b=1
+a=1
+for i in  range(n,1,-1):
+        a=a*i
+for j in range(r, 1, -1):
+        b=b*j
+
+print(a)
+print(b)
