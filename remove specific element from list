@@ -1,0 +1,4 @@
+my_list = [1, 2, 3, 4, 5]
+elements_to_remove = [2, 4]
+my_list = [x for x in my_list if x not in elements_to_remove]
+print("List after removal:", my_list)
