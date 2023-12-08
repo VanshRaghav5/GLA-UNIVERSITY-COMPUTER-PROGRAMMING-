@@ -1,0 +1,8 @@
+def is_fibonacci(n):
+    x = 0
+    y = 1
+    while y < n:
+        z = x + y
+        x = y
+        y = z
+    return n == y or n == 0
